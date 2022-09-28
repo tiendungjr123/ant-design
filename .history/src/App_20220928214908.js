@@ -13,14 +13,9 @@ const { Header, Sider, Content } = Layout;
 const App = () => {
   const [collapsed, setCollapsed] = useState(false);
   return (
-    <Layout style={{ maxHeight: '100vh' }}>
+    <Layout style={{maxHeight:'100vh'}}>
       <Sider trigger={null} collapsible collapsed={collapsed}>
-        <div className="logo"
-          style={{
-            height: '36px', margin: '16px',
-            background: 'rgba(255, 255, 255, 0.3)'
-          }}
-        />
+        <div className="logo" style={{height:'36px',margin:'16px',background: 'rgba(255, 255, 255, 0.3)'}} />
         <Menu
           theme="dark"
           mode="inline"
@@ -61,7 +56,7 @@ const App = () => {
           style={{
             margin: '24px 16px',
             padding: 24,
-            minHeight: '80vh',
+            minHeight: 280,
           }}
         >
           Content

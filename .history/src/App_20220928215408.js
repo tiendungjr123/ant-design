@@ -61,7 +61,7 @@ const App = () => {
           style={{
             margin: '24px 16px',
             padding: 24,
-            minHeight: '80vh',
+            maxHeight: '100vh',
           }}
         >
           Content

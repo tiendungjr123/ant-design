@@ -1,0 +1,21 @@
+import { Input } from 'antd'
+import React from 'react'
+import { UserOutlined, EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons'
+export default function AntInput() {
+  return (
+    <div>
+      <Input
+        status='error'
+        size='medium'
+        allowClear
+        placeholder='Username'
+        maxLength={20}
+        prefix={<UserOutlined />}
+      />
+      <br />
+      <br />
+      <Input.Password placeholder="input password" />
+
+    </div>
+  )
+}
